@@ -195,11 +195,41 @@
         <mxCell id="c5fVnsj8kygoFX_UY_Pb-51" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MONOSTABLE&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;IC 1 - 555&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;C1&amp;nbsp; &amp;nbsp;- 10uf&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;C2&amp;nbsp; &amp;nbsp;- 10nf&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;R1&amp;nbsp; &amp;nbsp;- X&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;R2&amp;nbsp; &amp;nbsp;- Y&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="180" x="40" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="xUgSY3Do1oku6UZmHX0K-2" edge="1" parent="1" source="c5fVnsj8kygoFX_UY_Pb-2" style="endArrow=oval;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=oval;startFill=1;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="xUgSY3Do1oku6UZmHX0K-2" edge="1" parent="1" source="c5fVnsj8kygoFX_UY_Pb-2" style="endArrow=oval;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=none;startFill=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="90" y="190" as="sourcePoint" />
             <mxPoint x="240" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-1" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbuttonMakeSwitch2;elSwitchState=1;labelPerimeter=1;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="50" width="75" x="181.5" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-2" edge="1" parent="1" source="6NNrv0xkpGrfABhM6xQg-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=none;startFill=0;endFill=0;exitX=1;exitY=0.94;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="c5fVnsj8kygoFX_UY_Pb-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.94;entryDx=0;entryDy=0;" target="6NNrv0xkpGrfABhM6xQg-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="241" y="440" as="sourcePoint" />
+            <mxPoint x="240" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-5" edge="1" parent="1" style="endArrow=oval;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=oval;startFill=1;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c5fVnsj8kygoFX_UY_Pb-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="215" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Push Button" vertex="1">
+          <mxGeometry height="30" width="80" x="150" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6NNrv0xkpGrfABhM6xQg-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="R2" vertex="1">
+          <mxGeometry height="30" width="20" x="250" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
